@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- ===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <!--logo-->
+            <a href="index.html" class="logo">CWN</a>
+            <!--navbar-->
+            <ul class="navbar">
+                <l1><a href="#home" class="nav-link">Home</a></l1>
+                <l1><a href="#courses" class="nav-link">Courses</a></l1>
+                <l1><a href="#services" class="nav-link">Blog</a></l1>
+                <l1><a href="#contact" class="nav-link">Contact</a></l1>
+            </ul>
+            
+         <div class="darkLight-searchBox">
+            <div class="dark-light">
+               
+            </div>
+            <div class="searchBox">
+                <div class="searchToggle">
+                 <i class='bx bx-x cancel style="color:black;'></i>
+                 <i class='bx bx-search search' style="color:black;"></i>
+                </div>
+
+                 <div class="search-field">
+                     <input type="text" placeholder="Search...">
+                     <i class='bx bx-search'></i>
+                 </div>
+            
+        </div>
+    </header>
+    <!--Mainsection-->
+    <div class="main" id="home">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>WELCOME TO</h1>
+            <h2>CODE WITH NIMS</h2>
+            <p>See what makes us different</p>
+            <button class="main__btn"><a href="#">Get started</a></button>
+          </div>
+          <div class="main__img--container">
+            <img src="educator.svg" alt="pic" id="main__img" />
+          </div>
+        </div>
+      </div>
+    
+<!---courses-->
+     
+<section class="courses-container" id="courses">
+    <!--heading-->
+    <div class="course__content">
+    <h2 >Courses</h2>
+    </div>
+    <!--services content-->
+    <div class="courses-content">
+        <div class="courses-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Navigation bar</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+        </div>
+
+        <div class="courses-box">
+          <i class='bx bx-brush-alt' ></i>
+          <h3>UI/UX design</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+      </div>
+      
+      <div class="courses-box">
+        <i class='bx bx-brush-alt' ></i>
+        <h3>Search Bar</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+    </div>
+    <div class="courses-box">
+        <i class='bx bx-brush-alt' ></i>
+        <h3>Card design</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+    </div>
+    <div class="courses-box">
+        <i class='bx bx-brush-alt' ></i>
+        <h3>Sidebar</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+    </div>
+    <div class="courses-box">
+        <i class='bx bx-brush-alt' ></i>
+        <h3>Sidebar</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia distinctio repellat voluptatibus quo pariatur ducimus, illo accusamus voluptatum, cum et voluptates ut animi nostrum aliquid sed vitae eum magnam dolores.</p>
+    </div>
+   
+    
+    </div>
+    
+</section>
+<!--Blog-->
+<section class="contact-container" id="contact">
+    <div class="contact__content">
+        <h2 >contact</h2>
+        </div>
+        <!--contact-form-->
+        <div class="contact-content">
+     <form action="" class="contact-form" id="contact-form">
+        <input type="text" placeholder="Your Name" class="name" required>
+        <input type="email" name="" id="" placeholder="Your Email" class="email" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write message here.."></textarea>
+        <input type="submit" value="send" class="send-btn">
+       </form>
+       </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!---Footer-->
+<footer class="footer">
+    <div class="footer-content">
+        
+        <h2>Code With Nims</h2>
+        <p>Copyright reserved act@2022</p>
+        <div class="icons">
+            <a href=" "><i class='bx bxl-facebook' style="color:white;"></i></a>
+            <a href=" "><i class='bx bxl-instagram' style="color:white;"></i></a>
+            <a href=" "><i class='bx bxl-twitter' style="color:white;"></i></a>
+        </div>
+        
+       
+    </div>
+
+    
+</footer>
+
+
+<script>
+
+    const body = document.querySelector("body"),
+          nav = document.querySelector("nav"),
+          
+          searchToggle = document.querySelector(".searchToggle"),
+          sidebarOpen = document.querySelector(".sidebarOpen"),
+          siderbarClose = document.querySelector(".siderbarClose");
+    
+    
+  
+    
+    // js code to toggle search box
+            searchToggle.addEventListener("click" , () =>{
+            searchToggle.classList.toggle("active");
+          });
+     
+          
+  
+    
+    </script>
+    
+
+
+
+  
+    
+</body>
+</html>
